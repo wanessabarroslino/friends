@@ -1,0 +1,115 @@
+body {
+    background-color: #c8a2c8;
+    font-family: friends;
+}
+
+@font-face {
+    font-family: friends;
+    src: url('friends.TTF');
+ }
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: auto;
+}
+
+.photo_logo {
+    height: 300px;
+    width: auto;
+}
+
+.quite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_center {
+    height: 500px;
+    width: 1280px;
+    border-radius: 50%;
+}
+
+.text_quite {
+    font-size: 20px;
+    color: black;
+    padding: 100px;
+}
+
+.characters {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.photo {
+    height: 100px;
+    width: 70px;
+    padding: 25px;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.description{
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+.name {
+    font: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.title_characters {
+    font: bold;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;  
+}
+
+.couch { 
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 335px;
+    height: auto;
+}
+
+.the_end {
+    display: flex;
+    justify-content: center;
+}
+
+.phrase {
+    font: bold;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.link {
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+
+hr {
+    border: 0px;
+    border-top: 1px solid white;
+}
+
+.reference {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
